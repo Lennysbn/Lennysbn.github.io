@@ -1,0 +1,16 @@
+/* Fichier CSS à personnaliser */
+
+h1 {
+    text-align: center;
+    color: red;
+    background-color: darkgreen;
+  }
+  
+.special {
+    text-align: center;
+    color: orange;
+    background-color: navy;
+    /*border: solid black;*/
+  }
+
+

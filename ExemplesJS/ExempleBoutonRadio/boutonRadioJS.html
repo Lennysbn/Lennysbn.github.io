@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <!-- le lien vers le fichier JavaScript doit être placé juste avant la balise fermante </head> -->
+        <meta charset="UTF-8">
+        <title>Web débile</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer></script>
+    </head>
+
+
+
+    <body>
+        <h1>Qu'elle est la marque la plus ancienne  ?</h1>
+        
+        <label for="Chanel">Chanel</label>
+        <input type="radio" id="Chanel" value="Chanel" name="werbistdu" onchange="mymessage()">
+
+        <label for="Louis Vuitton">Louis Vuitton</label>
+        <input type="radio" id="Louis Vuitton" value="Louis Vuitton" name="werbistdu" onchange="mymessage()">
+        
+        <label for="Dior">Dior</label>
+        <input type="radio" id="Dior" value="Dior" name="werbistdu" onchange="mymessage()">
+        <br/>
+        <div id="messageBienvenue" class="special"></div>
+	</body>
+</html>

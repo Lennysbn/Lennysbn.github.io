@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<!-- Je suis dans un commmentaire -->
+    <head>
+    <!--La partie head n'apparait pas dans la fenetre du navigateur, sauf le titre qui est le nom de l'onglet qui s'ouvre dans le navigateur.
+        Elle contient des infos importantes pour garantir un affichage correct, référencé et stylé -->
+        <meta charset="UTF-8">
+        <title>FWP 23/24</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="script.js" defer></script>
+    </head>
+
+    <!--La partie body englobe le contenu textuel structuré 
+        et les liens vers :
+        - soit des éléments multimédia (photo, audio, vidéo)
+        - soit des pages déjà présentes sur le web 
+        - soit d'autres pages que vous créez... -->
+
+    <body>
+        <!--Structurer son texte-->
+        <h1>Fashion Week Paris</h1>
+        <h2>Edition 2023/2024 </h2>
+        <h3>Homme, Automne/Hiver </h3>
+        <h4></h4>
+        <h5></h5>
+        <h6></h6>
+        
+        <br/>
+        
+        <h3> Les plus grandes maisons de hautes coutures y participent :  </h3>
+        <!-- une liste sans numérotation-->
+        <ul>
+            <li> Dior </li>
+            <li> Louis Vuitton</li>
+	    <li> Saint Laurent </li>
+	    <li> Maison Margiela </li>
+	    <li> Et bien d'autres </li>
+
+        </ul> 
+
+        </ol> 
+	<h3> Voici le défilé Saint Laurent </h3>
+	<p> </p>
+	<iframe width="560" height="320" src="https://www.youtube.com/embed/q-YiGcJn0q0" 
+title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
+picture-in-picture; web-share" allowfullscreen></iframe>	
+        
+	<h3> Si vous voulez suivre d'autre défilés, voici le calendrier : </h3>
+	<img src="fwp2023.png"><br/>
+
+		<br>
+        <!--y integrer des liens vers d'autres pages...-->
+        <a href="https://parisfashionweek.fhcm.paris/fr/">Le site officiel de la Fashion Week</a><br>
+        <br/>
+        <a href="squelette1.html">Pour plus de details sur la création de pieces</a><br>
+	        <h1>Qu'elle est la marque la plus ancienne  ?</h1>
+        
+        <label for="Chanel">Chanel</label>
+        <input type="radio" id="Chanel" value="Chanel" name="werbistdu" onchange="mymessage()">
+
+        <label for="Louis Vuitton">Louis Vuitton</label>
+        <input type="radio" id="Louis Vuitton" value="Louis Vuitton" name="werbistdu" onchange="mymessage()">
+        
+        <label for="Dior">Dior</label>
+        <input type="radio" id="Dior" value="Dior" name="werbistdu" onchange="mymessage()">
+        <br/>
+        <div id="messageBienvenue" class="special"> 
+        </div>
+	<p></p>
+	</body>
+</html>

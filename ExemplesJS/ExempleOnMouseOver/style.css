@@ -1,0 +1,13 @@
+/* Fichier CSS à personnaliser */
+
+h1 {
+    text-align: center;
+    color: red;
+    background-color: darkgreen;
+  }
+  
+.texteCentre {
+  text-align: center;
+  }
+
+
